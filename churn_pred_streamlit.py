@@ -95,7 +95,8 @@ if st.button("Predict Churn"):
        with st.expander("Features sent to the model"):
            st.dataframe(X_df)
    except Exception as e:
-       st.error(f"Prediction failed: {e}")import os
+       st.error(f"Prediction failed: {e}")
+import os
 import numpy as np
 import pandas as pd
 import streamlit as st
